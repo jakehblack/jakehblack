@@ -1,6 +1,6 @@
 ### Hey - my name's Jake!
 
-I'm a *multimedia artist* that just finished interning as a *web dev* for a VR start-up.
+I'm a *multimedia artist* who just finished interning as a *web dev* for a VR start-up.
 
 Some of my **favorite** things:
 <p> &nbsp ☕ &nbsp drinking good coffee <br>
