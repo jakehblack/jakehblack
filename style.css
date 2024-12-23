@@ -1,0 +1,61 @@
+body {
+  margin: 2rem;
+  /*background: radial-gradient(circle, rgba(40,40,40,1) 0%, rgba(10,10,10,1) 100%);*/
+  background: radial-gradient(circle, rgba(70,78,89,1) 0%, rgba(16,18,20,1) 100%);
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 1rem;
+  color: rgb(240, 240, 240);
+  line-height: 1.5;
+}
+
+.full-name {
+  width: 33%;
+  margin-bottom: 1.75rem;
+  margin-left: 0.25rem;
+  border-bottom-style: solid;
+  border-width: 0.125rem;
+  color: rgb(240, 240, 240);
+  line-height: 0.5;
+}
+
+.education {
+  width: 66%;
+  margin-bottom: 1.25rem;
+  padding: 0.125rem 1.5rem;
+  border-radius: 0.469rem;
+  background: linear-gradient(90deg, rgba(22,25,28,1) 0%, rgba(22,25,28,0.65) 100%);
+}
+
+.member-of {
+  font-style: italic;
+}
+
+.skills-header h2, .skills-header h3 {
+  display: inline-block;
+  margin-right: 0.016rem;
+  margin-bottom: 0.156rem;
+}
+
+.skills {
+  width: 66%;
+  border-radius: 0.469rem;
+  margin-bottom: 1.25rem;
+  padding: 0.125rem 1.5rem;
+  background: linear-gradient(90deg, rgba(22,25,28,1) 0%, rgba(22,25,28,0.65) 100%);
+}
+
+.experience {
+  width: 66%;
+  border-radius: 0.469rem;
+  margin-bottom: 1.5rem;
+  padding: 0.125rem 1.25rem;
+  background: linear-gradient(90deg, rgba(22,25,28,1) 0%, rgba(22,25,28,0.65) 100%);
+}
+
+.contacts {
+  width: 66%;
+  border-radius: 0.469rem;
+  margin-bottom: 1.5rem;
+  padding: 0.125rem 1.25rem;
+  background: linear-gradient(90deg, rgba(22,25,28,1) 0%, rgba(22,25,28,0.65) 100%);
+}
