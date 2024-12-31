@@ -21,7 +21,7 @@ body {
 .education {
   width: 66%;
   margin-bottom: 1.25rem;
-  padding: 0.125rem 1.5rem;
+  padding: 0.125rem 1.25rem;
   border-radius: 0.469rem;
   background: linear-gradient(90deg, rgba(22,25,28,1) 0%, rgba(22,25,28,0.65) 100%);
 }
@@ -40,14 +40,14 @@ body {
   width: 66%;
   border-radius: 0.469rem;
   margin-bottom: 1.25rem;
-  padding: 0.125rem 1.5rem;
+  padding: 0.125rem 1.25rem;
   background: linear-gradient(90deg, rgba(22,25,28,1) 0%, rgba(22,25,28,0.65) 100%);
 }
 
 .experience {
   width: 66%;
   border-radius: 0.469rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.25rem;
   padding: 0.125rem 1.25rem;
   background: linear-gradient(90deg, rgba(22,25,28,1) 0%, rgba(22,25,28,0.65) 100%);
 }
@@ -55,7 +55,7 @@ body {
 .contacts {
   width: 66%;
   border-radius: 0.469rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.25rem;
   padding: 0.125rem 1.25rem;
   background: linear-gradient(90deg, rgba(22,25,28,1) 0%, rgba(22,25,28,0.65) 100%);
 }
