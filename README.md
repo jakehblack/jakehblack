@@ -8,4 +8,4 @@ A few of my **favorite** things:
    &nbsp ☕ &nbsp drinking good coffee<br>
 </p>
 
-[my resume](https://jakehblack.github.io/jakehblack/)
+[my cv](https://jakehblack.github.io/jakehblack/)
