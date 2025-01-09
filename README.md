@@ -4,8 +4,8 @@ I'm a *multimedia artist* who just finished interning as a *web dev* for a VR st
 
 A few of my **favorite** things:
   <p>&nbsp ☕ &nbsp drinking good coffee<br>
-  &nbsp 🍝 &nbsp cooking delicious meals<br>
-  &nbsp 📺 &nbsp making experimental art<br>
-</p>
+     &nbsp 🍝 &nbsp cooking delicious meals<br>
+     &nbsp 📺 &nbsp making experimental art<br>
+  </p>
 
 [my cv](https://jakehblack.github.io/jakehblack/)
