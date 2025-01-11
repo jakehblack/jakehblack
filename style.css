@@ -3,77 +3,109 @@ body {
   background: radial-gradient(circle, rgba(70,78,89,1) 0%, rgba(16,18,20,1) 100%);
   display: grid;
   place-items: center;
-  line-height: 1.5;
   font-family: "Roboto Mono", sans-serif;
-  font-size: 1.125rem;
+  font-size: 1rem;
   font-weight: 400;
   color: rgb(243, 243, 243);
+  line-height: 1.25;
 }
 
 .full-name {
-  width: 100%;
+  width: 100vw;
   height: 6.25rem;
   margin-bottom: 3.125rem;
   background: linear-gradient(180deg, rgba(8,8,8,0.75), rgba(16,16,16,0.5));
+  display: grid;
+  place-items: center;
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  text-align: center;
   letter-spacing: 0.25rem;
   color: rgb(247, 247, 247);
 }
 
 .education {
-  width: 50%;
+  width: 50vw;
   height: auto;
   margin-bottom: 1.5625rem;
   padding: 0 1.875rem 0.5rem;
+  border-style: solid;
+  border-width: 0.0039rem;
   border-radius: 0.469rem;
+  border-color: rgba(83,92,105,1.0);
   background: linear-gradient(90deg, rgba(16,18,20,0.9) 0%, rgba(22,25,28,0.5) 100%);
 }
 
-.member-of {
-  font-style: italic;
+.degree {
+  font-size: 1.125rem;
+}
+
+.skill-set {
+  width: 50vw;
+  height: auto;
+  margin-bottom: 1.5625rem;
+  padding: 0 1.875rem 0.5rem;
+  border-style: solid;
+  border-width: 0.0039rem;
+  border-radius: 0.469rem;
+  border-color: rgba(83,92,105,1.0);
+  background: linear-gradient(90deg, rgba(16,18,20,0.9) 0%, rgba(22,25,28,0.5) 100%);
 }
 
 .skills-header h2, .skills-header h3 {
   display: inline-block;
-  margin-right: 0.016rem;
+  margin-right: 0.0313rem;
   margin-bottom: 0.156rem;
 }
 
 .skills {
-  width: 50%;
-  height: auto;
-  margin-bottom: 1.5625rem;
-  padding: 0 1.875rem 0.5rem;
-  border-radius: 0.469rem;
-  background: linear-gradient(90deg, rgba(16,18,20,0.9) 0%, rgba(22,25,28,0.5) 100%);
+  line-height: 1.5;
 }
 
 .work-experience {
-  width: 50%;
+  width: 50vw;
   height: auto;
   margin-bottom: 1.5625rem;
   padding: 0 1.875rem 0.5rem;
+  border-style: solid;
+  border-width: 0.0039rem;
   border-radius: 0.469rem;
+  border-color: rgba(83,92,105,1.0);
   background: linear-gradient(90deg, rgba(16,18,20,0.9) 0%, rgba(22,25,28,0.5) 100%);
+}
+
+.company {
+  font-size: 1.25rem;
+}
+
+.job-description {
+  line-height: 1.5;
+}
+
+.contact-links {
+  width: 50vw;
+  height: auto;
+  margin-bottom: 4.6875rem;
+  padding: 0 1.875rem 0.5rem;
+  border-style: solid;
+  border-width: 0.0039rem;
+  border-radius: 0.469rem;
+  border-color: rgba(83,92,105,1.0);
+  background: linear-gradient(90deg, rgba(16,18,20,0.9) 0%, rgba(22,25,28,0.5) 100%);
+}
+
+.contact {
+  font-size: 1.125rem;
+}
+
+.links {
+  line-height: 1.5;
 }
 
 a {
   color: #53a6ff;
 }
 
-.contact-links {
-  width: 50%;
-  height: auto;
-  margin-bottom: 4.6875rem;
-  padding: 0 1.875rem 0.5rem;
-  border-radius: 0.469rem;
-  background: linear-gradient(90deg, rgba(16,18,20,0.9) 0%, rgba(22,25,28,0.5) 100%);
-}
-
 footer {
-  width: 100%;
+  width: 100vw;
   height: 9.375rem;
   display: grid;
   place-items: center;
