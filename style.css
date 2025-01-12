@@ -1,32 +1,32 @@
 body {
   margin: 0;
-  background: radial-gradient(circle, rgba(70,78,89,1) 0%, rgba(16,18,20,1) 100%);
   display: grid;
   place-items: center;
-  font-family: "Roboto Mono", sans-serif;
+  font-family: "DM Mono", sans-serif;
   font-size: 1rem;
   font-weight: 400;
-  color: rgb(243, 243, 243);
   line-height: 1.25;
+  color: rgb(243, 243, 243);
+  background: radial-gradient(circle, rgba(70,78,89,1) 0%, rgba(16,18,20,1) 100%);
 }
 
 .full-name {
   width: 100vw;
   height: 6.25rem;
   margin-bottom: 3.125rem;
-  background: linear-gradient(180deg, rgba(8,8,8,0.75), rgba(16,16,16,0.5));
   display: grid;
   place-items: center;
-  font-family: "Roboto", sans-serif;
-  letter-spacing: 0.25rem;
+  font-size: 1.125rem;
+  letter-spacing: 0.125rem;
   color: rgb(247, 247, 247);
+  background: linear-gradient(180deg, rgba(8,8,8,0.75), rgba(16,16,16,0.5));
 }
 
 .education {
   width: 50vw;
   height: auto;
   margin-bottom: 1.5625rem;
-  padding: 0 1.875rem 0.5rem;
+  padding: 0 1.1719rem 0.3906rem;
   border-style: solid;
   border-width: 0.0039rem;
   border-radius: 0.469rem;
@@ -42,7 +42,7 @@ body {
   width: 50vw;
   height: auto;
   margin-bottom: 1.5625rem;
-  padding: 0 1.875rem 0.5rem;
+  padding: 0 1.1719rem 0.3906rem;
   border-style: solid;
   border-width: 0.0039rem;
   border-radius: 0.469rem;
@@ -64,7 +64,7 @@ body {
   width: 50vw;
   height: auto;
   margin-bottom: 1.5625rem;
-  padding: 0 1.875rem 0.5rem;
+  padding: 0 1.1719rem 0.3906rem;
   border-style: solid;
   border-width: 0.0039rem;
   border-radius: 0.469rem;
@@ -84,7 +84,7 @@ body {
   width: 50vw;
   height: auto;
   margin-bottom: 4.6875rem;
-  padding: 0 1.875rem 0.5rem;
+  padding: 0 1.1719rem 0.3906rem;
   border-style: solid;
   border-width: 0.0039rem;
   border-radius: 0.469rem;
@@ -109,6 +109,8 @@ footer {
   height: 9.375rem;
   display: grid;
   place-items: center;
+  font-family: Roboto Mono;
+  font-style: italic;
   font-size: 1.25rem;
   background: linear-gradient(0deg, rgba(8,8,8,0.75), rgba(16,16,16,0.5));
 }
