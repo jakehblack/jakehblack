@@ -12,27 +12,50 @@ body {
 .site-header {
   width: 100%;
   height: 6.25rem;
-  padding: 0.5rem 3.125rem;
+  position: relative;
   background: linear-gradient(180deg, rgba(8,8,8,0.75), rgba(16,16,16,0.5));
 }
 
-
 .my-name {
-  font-size: 1.125rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 1.5625rem 0 0 3.125rem;
   letter-spacing: 0.125rem;
+  font-size: 2rem;
   color: rgb(247, 247, 247);
 }
 
 main {
   width: 50vw;
-  margin: 4.6875rem 0 6.25rem 0;
-  padding: 0 1.5625rem 0 3.125rem;
+  margin: 3.125rem 0 6.25rem 0;
+  padding: 0 0 0 3.125rem;
+}
+
+.my-links {
+  height: auto;
+  margin: 0 0 1.5625rem 0;
+  padding: 1.25rem 1.5rem 0.5rem;
+  border-style: solid;
+  border-width: 0.0039rem;
+  border-radius: 0.469rem;
+  font-size: 1.125rem;
+  border-color: rgba(83,92,105,0.9);
+  background: linear-gradient(90deg, rgba(16,18,20,0.9) 0%, rgba(22,25,28,0.5) 100%);
+}
+
+.links-header {
+  font-size: 1.5rem;
+}
+
+.links {
+  line-height: 1.75;
 }
 
 .skill-set {
   height: auto;
   margin: 0 0 1.5625rem 0;
-  padding: 0 1.1719rem 0.3906rem;
+  padding: 1.25rem 1.5rem 0.5rem;
   border-style: solid;
   border-width: 0.0039rem;
   border-radius: 0.469rem;
@@ -40,19 +63,27 @@ main {
   background: linear-gradient(90deg, rgba(16,18,20,0.9) 0%, rgba(22,25,28,0.5) 100%);
 }
 
+.skills-header {
+  font-size: 1.5rem;
+}
+
 .skills {
-  line-height: 1.5;
+  line-height: 1.75;
 }
 
 .work-experience {
   height: auto;
   margin: 0 0 1.5625rem 0;
-  padding: 0 1.1719rem 0.3906rem;
+  padding: 1.25rem 1.5rem 0.5rem;
   border-style: solid;
   border-width: 0.0039rem;
   border-radius: 0.469rem;
   border-color: rgba(83,92,105,0.9);
   background: linear-gradient(90deg, rgba(16,18,20,0.9) 0%, rgba(22,25,28,0.5) 100%);
+}
+
+.work-header {
+  font-size: 1.5rem;
 }
 
 .company {
@@ -66,22 +97,26 @@ main {
 .education {
   height: auto;
   margin: 0 0 1.5625rem 0;
-  padding: 0 1.1719rem 0.3906rem;
+  padding: 1.25rem 1.5rem 0.5rem;
   border-style: solid;
   border-width: 0.0039rem;
   border-radius: 0.469rem;
   border-color: rgba(83,92,105,0.9);
   background: linear-gradient(90deg, rgba(16,18,20,0.9) 0%, rgba(22,25,28,0.5) 100%);
+}
+
+.education-header {
+  font-size: 1.5rem;
 }
 
 .degree {
   font-size: 1.125rem;
 }
 
-.contact-links {
+.contact {
   height: auto;
   margin: 0 0 1.5625rem 0;
-  padding: 0 1.1719rem 0.3906rem;
+  padding: 1.25rem 1.5rem 0.5rem;
   border-style: solid;
   border-width: 0.0039rem;
   border-radius: 0.469rem;
@@ -89,13 +124,12 @@ main {
   background: linear-gradient(90deg, rgba(16,18,20,0.9) 0%, rgba(22,25,28,0.5) 100%);
 }
 
-.contact {
-  font-size: 1.125rem;
+.contact-header {
+  font-size: 1.5rem;
 }
 
-.links {
+.email {
   font-size: 1.125rem;
-  line-height: 1.75;
 }
 
 a {
@@ -110,11 +144,11 @@ a {
 }
 
 .footer-text {
-  margin: 1.5rem;
   position: absolute;
   bottom: 0;
   right: 0;
+  margin: 0 2rem 0.25rem 0;
   font-family: Roboto Mono;
-  font-style: italic;
   font-size: 1.25rem;
+  font-style: italic;
 }
