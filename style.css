@@ -4,7 +4,7 @@ body {
   font-family: "DM Mono", sans-serif;
   font-size: 1rem;
   font-weight: 400;
-  line-height: 1.25;
+  line-height: normal;
   color: rgb(243, 243, 243);
   background: radial-gradient(circle, rgba(70,78,89,1) 0%, rgba(16,18,20,1) 100%);
 }
@@ -16,13 +16,13 @@ body {
   background: linear-gradient(180deg, rgba(8,8,8,0.75), rgba(16,16,16,0.5));
 }
 
+h1 {
+  font-weight: normal;
+}
+
 .my-name {
-  position: absolute;
-  top: 0;
-  left: 0;
-  padding: 1.5625rem 0 0 3.125rem;
+  padding: 0.5rem 0 0 3.125rem;
   letter-spacing: 0.125rem;
-  font-size: 2rem;
   color: rgb(247, 247, 247);
 }
 
@@ -32,30 +32,34 @@ main {
   padding: 0 0 0 3.125rem;
 }
 
+h2 {
+  font-weight: normal;
+}
+
 .my-links {
   height: auto;
   margin: 0 0 1.5625rem 0;
-  padding: 1.25rem 1.5rem 0.5rem;
+  padding: 0.25rem 1.5rem 0.75rem;
   border-style: solid;
   border-width: 0.0039rem;
   border-radius: 0.469rem;
-  font-size: 1.125rem;
   border-color: rgba(83,92,105,0.9);
   background: linear-gradient(90deg, rgba(16,18,20,0.9) 0%, rgba(22,25,28,0.5) 100%);
 }
 
-.links-header {
-  font-size: 1.5rem;
+a {
+  color: #53a6ff;
 }
 
 .links {
+  font-size: 1.125rem;
   line-height: 1.75;
 }
 
-.skill-set {
+.my-skills {
   height: auto;
   margin: 0 0 1.5625rem 0;
-  padding: 1.25rem 1.5rem 0.5rem;
+  padding: 0.25rem 1.5rem 0.75rem;
   border-style: solid;
   border-width: 0.0039rem;
   border-radius: 0.469rem;
@@ -63,27 +67,19 @@ main {
   background: linear-gradient(90deg, rgba(16,18,20,0.9) 0%, rgba(22,25,28,0.5) 100%);
 }
 
-.skills-header {
-  font-size: 1.5rem;
-}
-
 .skills {
-  line-height: 1.75;
+  line-height: 2;
 }
 
 .work-experience {
   height: auto;
   margin: 0 0 1.5625rem 0;
-  padding: 1.25rem 1.5rem 0.5rem;
+  padding: 0.25rem 1.5rem 0.75rem;
   border-style: solid;
   border-width: 0.0039rem;
   border-radius: 0.469rem;
   border-color: rgba(83,92,105,0.9);
   background: linear-gradient(90deg, rgba(16,18,20,0.9) 0%, rgba(22,25,28,0.5) 100%);
-}
-
-.work-header {
-  font-size: 1.5rem;
 }
 
 .company {
@@ -91,32 +87,32 @@ main {
 }
 
 .job-description {
-  line-height: 1.5;
+  line-height: 1.75;
 }
 
 .education {
   height: auto;
   margin: 0 0 1.5625rem 0;
-  padding: 1.25rem 1.5rem 0.5rem;
+  padding: 0.25rem 1.5rem 0.75rem;
   border-style: solid;
   border-width: 0.0039rem;
   border-radius: 0.469rem;
   border-color: rgba(83,92,105,0.9);
   background: linear-gradient(90deg, rgba(16,18,20,0.9) 0%, rgba(22,25,28,0.5) 100%);
-}
-
-.education-header {
-  font-size: 1.5rem;
 }
 
 .degree {
   font-size: 1.125rem;
 }
 
-.contact {
+.member-of {
+  font-style: oblique;
+}
+
+.contact-me {
   height: auto;
   margin: 0 0 1.5625rem 0;
-  padding: 1.25rem 1.5rem 0.5rem;
+  padding: 0.25rem 1.5rem 0.75rem;
   border-style: solid;
   border-width: 0.0039rem;
   border-radius: 0.469rem;
@@ -124,16 +120,8 @@ main {
   background: linear-gradient(90deg, rgba(16,18,20,0.9) 0%, rgba(22,25,28,0.5) 100%);
 }
 
-.contact-header {
-  font-size: 1.5rem;
-}
-
-.email {
-  font-size: 1.125rem;
-}
-
-a {
-  color: #53a6ff;
+h3 {
+  font-weight: normal;
 }
 
 .site-footer {
