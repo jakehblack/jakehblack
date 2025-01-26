@@ -12,36 +12,53 @@ body {
 .site-header {
   width: 100%;
   height: 6.25rem;
-  border-style: solid;
-  border-width: 0 0 0.0625rem 0;
-  border-color: rgba(70,78,89,0.9);
   display: grid;
   place-items: center;
   background: linear-gradient(180deg, rgba(8,8,8,0.75), rgba(16,16,16,0.5));
 }
 
 .my-name {
-  letter-spacing: 0.125rem;
+  letter-spacing: 0.0625rem;
   color: rgb(247, 247, 247);
 }
 
 main {
-  width: 90vw;
-  margin: 3.125rem auto 3.9063rem;
+  width: auto;
+  margin: 3.125rem 25vw 3.9063rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto auto;
+  gap: 1.25rem;
 }
 
 h2 {
+  margin: 0;
   font-weight: normal;
 }
 
+p {
+  margin: 0.3125rem 0 0.3125rem;
+}
+
+.about-me {
+  width: fit-content;
+  height: fit-content;
+  border-style: solid;
+  border-width: 0.0313rem;
+  border-radius: 0.4688rem;
+  border-color: rgba(77,85,97,0.8);
+  padding: 0.625rem 1.25rem;
+  background: linear-gradient(90deg, rgba(16,18,20,0.9) 0%, rgba(22,25,28,0.5) 100%);
+}
+
 .my-links {
+  width: fit-content;
   height: auto;
   border-style: solid;
   border-width: 0.0313rem;
   border-radius: 0.4688rem;
   border-color: rgba(77,85,97,0.8);
-  margin: 0 0 1.5625rem 0;
-  padding: 0.3125rem 1.25rem 0.625rem;
+  padding: 0.625rem 1.25rem;
   background: linear-gradient(90deg, rgba(16,18,20,0.9) 0%, rgba(22,25,28,0.5) 100%);
 }
 
@@ -53,14 +70,15 @@ a {
   line-height: 1.75;
 }
 
-.my-skills {
-  height: auto;
+.skill-set {
+  width: fit-content;
+  height: fit-content;
   border-style: solid;
   border-width: 0.0313rem;
   border-radius: 0.4688rem;
   border-color: rgba(77,85,97,0.8);
-  margin: 0 0 1.5625rem 0;
-  padding: 0.3125rem 1.25rem 0.625rem;
+  padding: 0.625rem 1.25rem;
+  grid-column: span 2;
   background: linear-gradient(90deg, rgba(16,18,20,0.9) 0%, rgba(22,25,28,0.5) 100%);
 }
 
@@ -69,13 +87,14 @@ a {
 }
 
 .work-experience {
-  height: auto;
+  width: fit-content;
+  height: fit-content;
   border-style: solid;
   border-width: 0.0313rem;
   border-radius: 0.4688rem;
   border-color: rgba(77,85,97,0.8);
-  margin: 0 0 1.5625rem 0;
-  padding: 0.3125rem 1.25rem 0.625rem;
+  padding: 0.625rem 1.25rem;
+  grid-column: span 2;
   background: linear-gradient(90deg, rgba(16,18,20,0.9) 0%, rgba(22,25,28,0.5) 100%);
 }
 
@@ -88,13 +107,13 @@ a {
 }
 
 .education {
-  height: auto;
+  width: fit-content;
+  height: fit-content;
   border-style: solid;
   border-width: 0.0313rem;
   border-radius: 0.4688rem;
   border-color: rgba(77,85,97,0.8);
-  margin: 0 0 1.5625rem 0;
-  padding: 0.3125rem 1.25rem 0.625rem;
+  padding: 0.625rem 1.25rem;
   background: linear-gradient(90deg, rgba(16,18,20,0.9) 0%, rgba(22,25,28,0.5) 100%);
 }
 
@@ -106,29 +125,27 @@ a {
   font-style: italic;
 }
 
-.contact-by {
-  height: auto;
+.contact {
+  width: fit-content;
+  height: fit-content;
   border-style: solid;
   border-width: 0.0313rem;
   border-radius: 0.4688rem;
   border-color: rgba(77,85,97,0.8);
-  margin: 0 0 1.5625rem 0;
-  padding: 0.3125rem 1.25rem 0.625rem;
+  padding: 0.625rem 1.25rem;
   background: linear-gradient(90deg, rgba(16,18,20,0.9) 0%, rgba(22,25,28,0.5) 100%);
 }
 
 .site-footer {
   width: 100%;
   height: 7.8125rem;
-  border-style: solid;
-  border-width: 0.0625rem 0 0 0;
-  border-color: rgba(70,78,89,0.9);
   display: grid;
   place-items: center;
   background: linear-gradient(0deg, rgba(8,8,8,0.75), rgba(16,16,16,0.5));
 }
 
 h3 {
+  margin: 0;
   font-weight: normal;
 }
 
