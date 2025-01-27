@@ -8,4 +8,4 @@ A few of my _favorite_ things:
      &nbsp 📺 &nbsp making experimental art<br>
   </p>
 
-[my site](https://jakehblack.github.io/jakehblack/)
+[my cv](https://jakehblack.github.io/jakehblack/)
