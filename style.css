@@ -22,13 +22,13 @@ body {
   color: rgb(247, 247, 247);
 }
 
+h1 {
+  font-style: normal;
+}
+
 main {
-  width: auto;
-  margin: 3.125rem 25vw 3.9063rem;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: auto auto;
-  gap: 1.25rem;
+  width: 85vw;
+  margin: 3.125rem auto 3.9063rem;
 }
 
 h2 {
@@ -41,23 +41,13 @@ p {
 }
 
 .about-me {
-  width: fit-content;
+  width: auto;
   height: fit-content;
   border-style: solid;
   border-width: 0.0313rem;
   border-radius: 0.4688rem;
   border-color: rgba(77,85,97,0.8);
-  padding: 0.625rem 1.25rem;
-  background: linear-gradient(90deg, rgba(16,18,20,0.9) 0%, rgba(22,25,28,0.5) 100%);
-}
-
-.my-links {
-  width: fit-content;
-  height: auto;
-  border-style: solid;
-  border-width: 0.0313rem;
-  border-radius: 0.4688rem;
-  border-color: rgba(77,85,97,0.8);
+  margin: 0 0 0.3125rem 0;
   padding: 0.625rem 1.25rem;
   background: linear-gradient(90deg, rgba(16,18,20,0.9) 0%, rgba(22,25,28,0.5) 100%);
 }
@@ -71,14 +61,14 @@ a {
 }
 
 .skill-set {
-  width: fit-content;
+  width: auto;
   height: fit-content;
   border-style: solid;
   border-width: 0.0313rem;
   border-radius: 0.4688rem;
   border-color: rgba(77,85,97,0.8);
+  margin: 0 0 0.3125rem 0;
   padding: 0.625rem 1.25rem;
-  grid-column: span 2;
   background: linear-gradient(90deg, rgba(16,18,20,0.9) 0%, rgba(22,25,28,0.5) 100%);
 }
 
@@ -87,14 +77,14 @@ a {
 }
 
 .work-experience {
-  width: fit-content;
+  width: auto;
   height: fit-content;
   border-style: solid;
   border-width: 0.0313rem;
   border-radius: 0.4688rem;
   border-color: rgba(77,85,97,0.8);
+  margin: 0 0 0.3125rem 0;
   padding: 0.625rem 1.25rem;
-  grid-column: span 2;
   background: linear-gradient(90deg, rgba(16,18,20,0.9) 0%, rgba(22,25,28,0.5) 100%);
 }
 
@@ -107,12 +97,13 @@ a {
 }
 
 .education {
-  width: fit-content;
+  width: auto;
   height: fit-content;
   border-style: solid;
   border-width: 0.0313rem;
   border-radius: 0.4688rem;
   border-color: rgba(77,85,97,0.8);
+  margin: 0 0 0.3125rem 0;
   padding: 0.625rem 1.25rem;
   background: linear-gradient(90deg, rgba(16,18,20,0.9) 0%, rgba(22,25,28,0.5) 100%);
 }
@@ -125,13 +116,14 @@ a {
   font-style: italic;
 }
 
-.contact {
-  width: fit-content;
+.my-links {
+  width: auto;
   height: fit-content;
   border-style: solid;
   border-width: 0.0313rem;
   border-radius: 0.4688rem;
   border-color: rgba(77,85,97,0.8);
+  margin: 0 0 0.3125rem 0;
   padding: 0.625rem 1.25rem;
   background: linear-gradient(90deg, rgba(16,18,20,0.9) 0%, rgba(22,25,28,0.5) 100%);
 }
@@ -144,13 +136,21 @@ a {
   background: linear-gradient(0deg, rgba(8,8,8,0.75), rgba(16,16,16,0.5));
 }
 
+.footer-text {
+  display: grid;
+  place-items: center;
+}
+
 h3 {
   margin: 0;
   font-weight: normal;
 }
 
-.footer-text {
-  font-family: Roboto Mono;
-  font-style: italic;
-  font-size: 1.125rem;
+.contact {
+  width: fit-content;
+  height: fit-content;
+  border-radius: 0.4688rem;
+  padding: 0.625rem 1.25rem;
+  text-align: center;
+  background: linear-gradient(90deg, rgba(16,18,20,0.9) 0%, rgba(22,25,28,0.5) 100%);
 }
