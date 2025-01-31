@@ -27,8 +27,15 @@ h1 {
 }
 
 main {
-  width: 85vw;
+  width: 90vw;
   margin: 3.125rem auto 3.9063rem;
+}
+
+@media (min-width: 1024px) {
+  main {
+    width: 50vw;
+    margin: 3.125rem auto 3.9063rem;
+  }
 }
 
 h2 {
@@ -37,7 +44,7 @@ h2 {
 }
 
 p {
-  margin: 0.3125rem 0 0.3125rem;
+  margin: 0.5rem 0 0.75rem;
 }
 
 .about-me {
@@ -50,6 +57,11 @@ p {
   margin: 0 0 0.3125rem 0;
   padding: 0.625rem 1.25rem;
   background: linear-gradient(90deg, rgba(16,18,20,0.9) 0%, rgba(22,25,28,0.5) 100%);
+}
+
+.short-bio {
+  width: 90%;
+  text-align: justify;
 }
 
 a {
@@ -149,8 +161,11 @@ h3 {
 .contact {
   width: fit-content;
   height: fit-content;
-  border-radius: 0.4688rem;
+  border-width: 0.0313rem;
+  border-style: solid;
+  border-radius: 0.3125rem;
+  border-color: rgba(77,85,97,0.8);
   padding: 0.625rem 1.25rem;
   text-align: center;
-  background: linear-gradient(90deg, rgba(16,18,20,0.9) 0%, rgba(22,25,28,0.5) 100%);
+  background: rgba(34,38,43,0.9);
 }
