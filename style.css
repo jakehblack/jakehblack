@@ -23,17 +23,18 @@ body {
 }
 
 h1 {
+  margin: 0;
   font-style: normal;
 }
 
 main {
-  width: 90vw;
+  width: 85vw;
   margin: 3.125rem auto 3.9063rem;
 }
 
 @media (min-width: 1024px) {
   main {
-    width: 50vw;
+    width: 45vw;
     margin: 3.125rem auto 3.9063rem;
   }
 }
@@ -48,39 +49,30 @@ p {
 }
 
 .about-me {
-  width: auto;
+  width: fit-content;
   height: fit-content;
   border-style: solid;
   border-width: 0.0313rem;
   border-radius: 0.4688rem;
   border-color: rgba(77,85,97,0.8);
-  margin: 0 0 0.3125rem 0;
-  padding: 0.625rem 1.25rem;
+  margin: 0 0 0.625rem 0;
+  padding: 0.625rem 3.75rem 0.625rem 1.25rem;
   background: linear-gradient(90deg, rgba(16,18,20,0.9) 0%, rgba(22,25,28,0.5) 100%);
 }
 
 .short-bio {
-  width: 90%;
   text-align: justify;
 }
 
-a {
-  color: #53a6ff;
-}
-
-.links {
-  line-height: 1.75;
-}
-
 .skill-set {
-  width: auto;
+  width: fit-content;
   height: fit-content;
   border-style: solid;
   border-width: 0.0313rem;
   border-radius: 0.4688rem;
   border-color: rgba(77,85,97,0.8);
-  margin: 0 0 0.3125rem 0;
-  padding: 0.625rem 1.25rem;
+  margin: 0 0 0.625rem 0;
+  padding: 0.625rem 2.5rem 0.625rem 1.25rem;
   background: linear-gradient(90deg, rgba(16,18,20,0.9) 0%, rgba(22,25,28,0.5) 100%);
 }
 
@@ -89,14 +81,14 @@ a {
 }
 
 .work-experience {
-  width: auto;
+  width: fit-content;
   height: fit-content;
   border-style: solid;
   border-width: 0.0313rem;
   border-radius: 0.4688rem;
   border-color: rgba(77,85,97,0.8);
-  margin: 0 0 0.3125rem 0;
-  padding: 0.625rem 1.25rem;
+  margin: 0 0 0.625rem 0;
+  padding: 0.625rem 3.75rem 0.625rem 1.25rem;
   background: linear-gradient(90deg, rgba(16,18,20,0.9) 0%, rgba(22,25,28,0.5) 100%);
 }
 
@@ -109,14 +101,14 @@ a {
 }
 
 .education {
-  width: auto;
+  width: fit-content;
   height: fit-content;
   border-style: solid;
   border-width: 0.0313rem;
   border-radius: 0.4688rem;
   border-color: rgba(77,85,97,0.8);
-  margin: 0 0 0.3125rem 0;
-  padding: 0.625rem 1.25rem;
+  margin: 0 0 0.625rem 0;
+  padding: 0.625rem 2.5rem 0.625rem 1.25rem;
   background: linear-gradient(90deg, rgba(16,18,20,0.9) 0%, rgba(22,25,28,0.5) 100%);
 }
 
@@ -128,16 +120,28 @@ a {
   font-style: italic;
 }
 
+h3 {
+  margin: 0;
+  font-weight: normal;
+}
+
+a {
+  color: #53a6ff;
+}
+
 .my-links {
-  width: auto;
+  width: fit-content;
   height: fit-content;
   border-style: solid;
   border-width: 0.0313rem;
   border-radius: 0.4688rem;
   border-color: rgba(77,85,97,0.8);
-  margin: 0 0 0.3125rem 0;
-  padding: 0.625rem 1.25rem;
+  padding: 0.625rem 2.5rem 0.625rem 1.25rem;
   background: linear-gradient(90deg, rgba(16,18,20,0.9) 0%, rgba(22,25,28,0.5) 100%);
+}
+
+.links {
+  line-height: 1.75;
 }
 
 .site-footer {
@@ -153,19 +157,18 @@ a {
   place-items: center;
 }
 
-h3 {
-  margin: 0;
-  font-weight: normal;
-}
-
 .contact {
   width: fit-content;
   height: fit-content;
   border-width: 0.0313rem;
-  border-style: solid;
   border-radius: 0.3125rem;
+  border-style: solid;
   border-color: rgba(77,85,97,0.8);
   padding: 0.625rem 1.25rem;
   text-align: center;
   background: rgba(34,38,43,0.9);
+}
+
+.contact p {
+  margin: 0.25rem;
 }
