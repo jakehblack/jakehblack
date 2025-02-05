@@ -1,6 +1,6 @@
 ### Hey - my name's Jake
 
-I'm a multimedia artist discovering the world of web development!
+I'm a multimedia artist exploring different ways to integrate tech into my creative process.
 
 A few of my _favorite_ things:
   <p>&nbsp ☕ &nbsp drinking good coffee<br>
