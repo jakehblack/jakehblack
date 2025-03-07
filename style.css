@@ -132,21 +132,25 @@ a {
   place-items: center;
   background: linear-gradient(0deg, rgba(8,8,8,0.9), rgba(16,16,16,0.6));
 }
-.footer-text {
-  display: grid;
-  place-items: center;
+.site-footer p {
+  margin: 0.3125rem; /* 5px */
 }
-.contact {
+.footer-text button {
   width: fit-content;
   height: fit-content;
-  border-radius: 0.3125rem; /* 50px */
+  border: none;
+  border-radius: 0.4688rem; /* 7.5px */
   padding: 0.625rem 1.25rem; /* 10px 20px */
+  font-family: "DM Mono", sans-serif;
   font-size: 0.875rem; /* 14px */
   text-align: center;
-  background: rgba(46,51,59,0.9);
+  color: rgb(243, 243, 243);
+  display: grid;
+  place-items: center;
+  background: rgba(46,51,59,0.8);
 }
-.contact p {
-  margin: 0.25rem; /* 4px */
+.footer-text button:active {
+  background: rgba(52,58,66,0.9);
 }
 /* Tablet and up */
 @media screen and (min-width: 56em) { /* 896px */
@@ -159,7 +163,7 @@ a {
   }
   .about-me {
     width: auto;
-    padding: 0.9375rem 6.25rem 0.625rem 1.5625rem; /* 15px 100px 10px 25px */
+    padding: 0.9375rem 5rem 0.625rem 1.5625rem; /* 15px 80px 10px 25px */
   }
   .short-bio {
     font-size: 1rem; /* 16px */
@@ -184,7 +188,8 @@ a {
     width: fit-content;
     padding: 0.9375rem 1.875rem 0.5rem 1.5625rem; /* 15px 30px 10px 25px */
   }
-  .contact {
+  .footer-text button {
     font-size: 1rem; /* 16px */
+    cursor: pointer;
   }
 }
