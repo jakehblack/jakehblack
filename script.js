@@ -1,18 +1,18 @@
-function copyText() {
-  // Gets text to copy
-  const textElement = document.getElementById('copied-text');
-  const textToCopy = textElement.textContent;
+function copyEmailAddress() {
+  // Hidden email address to be copied
+  const myEmail = "jhblack27@outlook.com";
   // Copies text to clipboard
-  navigator.clipboard.writeText(textToCopy)
+  navigator.clipboard.writeText(myEmail)
       .then(() => {
-          // Success message
+          // If copy is successful
           const button = document.querySelector('.contact-button');
           const originalText = button.textContent;
-          button.textContent = 'Email address copied.';
+          // Displays message after clicking button
+          button.textContent = 'Email address copied!';
       })
-      // Error message
+      // If an error occurs display this alert
       .catch(err => {
-          console.error('Error: failed to copy text! ', err);
-          alert('Please try again...');
+          console.error('Error: copyEmailAddress() failed to copy text!', err);
+          alert('Failed to copy email address. Refresh page and try again.');
       });
 }
