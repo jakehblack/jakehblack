@@ -9,7 +9,7 @@ body {
   color: rgb(243, 243, 243);
   background: linear-gradient(90deg, rgba(70,78,89,1) 0%, rgba(16,18,20,1) 100%);
 }
-.site-header {
+#site-header {
   width: 100%;
   height: 6.25rem; /* 100px */
   display: grid;
@@ -17,7 +17,7 @@ body {
   background: linear-gradient(180deg, rgba(8,8,8,0.8), rgba(16,16,16,0.4));
   box-shadow: rgba(4,4,4,0.8) 0 0.3125rem 0.3125rem; /* 0 5px 5px */
 }
-.my-name {
+#my-name {
   letter-spacing: 0.0625em; /* 1px */
   text-decoration: underline;
   text-underline-offset: 0.2813rem; /* 4.5px */
@@ -39,7 +39,7 @@ h2 {
 p {
   margin: 0.5rem 0 0.75rem; /* 8px 0 12px */
 }
-.about-me {
+#about-me {
   width: auto;
   height: fit-content;
   border-style: solid;
@@ -51,11 +51,11 @@ p {
   box-shadow: rgba(10,10,10,0.75) 0.3125rem 0.3125rem 0.1563rem; /* 5px 5px 2.5px */
   margin-bottom: 0.9375rem; /* 15px */
 }
-.short-bio {
+#short-bio {
   font-size: 0.9375rem; /* 15px */
   text-align: justify;
 }
-.skill-set {
+#skill-set {
   width: auto;
   height: fit-content;
   border-style: solid;
@@ -67,10 +67,10 @@ p {
   box-shadow: rgba(10,10,10,0.75) 0.3125rem 0.3125rem 0.1563rem; /* 5px 5px 2.5px */
   margin-bottom: 0.9375rem; /* 15px */
 }
-.skills {
+#skills {
   line-height: 1.75;
 }
-.work-experience {
+#work-experience {
   width: auto;
   height: fit-content;
   border-style: solid;
@@ -89,7 +89,7 @@ p {
   margin-left: -1.25rem; /* -20px */
   font-size: 0.9375rem; /* 15px */
 }
-.education {
+#education {
   width: auto;
   height: fit-content;
   border-style: solid;
@@ -111,7 +111,7 @@ h3 {
 a {
   color: #53a6ff;
 }
-.my-links {
+#my-links {
   width: fit-content;
   height: fit-content;
   border-style: solid;
@@ -122,17 +122,17 @@ a {
   background: linear-gradient(90deg, rgba(16,18,20,0.9) 0%, rgba(34,38,43,0.8) 100%);
   box-shadow: rgba(10,10,10,0.75) 0.3125rem 0.3125rem 0.1563rem; /* 5px 5px 2.5px */
 }
-.links {
+#listed-links{
   line-height: 1.75;
 }
-.site-footer {
+#site-footer {
   width: 100%;
   height: 7.8125rem; /* 125px */
   display: grid;
   place-items: center;
   background: linear-gradient(0deg, rgba(8,8,8,0.9), rgba(16,16,16,0.6));
 }
-.site-footer p {
+#site-footer p {
   margin: 0.3125rem; /* 5px */
 }
 .footer-text button {
@@ -161,18 +161,18 @@ a {
     width: 50vw;
     margin: 3.125rem auto 4.6875rem; /* 50px auto 75px */
   }
-  .about-me {
+  #about-me {
     width: auto;
     padding: 0.9375rem 5rem 0.625rem 1.5625rem; /* 15px 80px 10px 25px */
   }
-  .short-bio {
+  #short-bio {
     font-size: 1rem; /* 16px */
   }
-  .skill-set {
+  #skill-set {
     width: fit-content;
     padding: 0.9375rem 2.1875rem 0.625rem 1.5625rem; /* 15px 35px 10px 25px */
   }
-  .work-experience {
+  #work-experience {
     width: fit-content;
     padding: 0.9375rem 2.8125rem 0.625rem 1.5625rem; /* 15px 45px 10px 25px */
   }
@@ -180,11 +180,11 @@ a {
     margin-top: 0.625rem; /* 10px */
     font-size: 1.125rem; /* 18px */
   }
-  .education {
+  #education {
     width: fit-content;
     padding: 0.9375rem 1.875rem 0.625rem 1.5625rem; /* 15px 30px 10px 25px */
   }
-  .my-links {
+  #my-links {
     width: fit-content;
     padding: 0.9375rem 1.875rem 0.5rem 1.5625rem; /* 15px 30px 10px 25px */
   }
