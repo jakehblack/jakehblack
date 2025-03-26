@@ -29,8 +29,8 @@ h1 {
   font-style: normal;
 }
 main {
-  width: 80vw;
-  margin: 1.5625rem auto 3.125rem; /* 25px auto 50px */
+  width: 75vw;
+  margin: 2.3438rem auto 3.9063rem; /* 37.5px auto 62.5px */
 }
 h2 {
   margin: 0;
@@ -152,18 +152,18 @@ a {
 .footer-text button:active {
   background: rgba(52,58,66,0.9);
 }
-/* Tablet and up */
-@media screen and (min-width: 56em) { /* 896px */
+/* Tablet, laptop & beyond */
+@media screen and (min-width: 48em) { /* 768px */
   body {
     background: radial-gradient(circle, rgba(70,78,89,1) 0%, rgba(16,18,20,1) 100%);
   }
   main {
-    width: 50vw;
+    width: 55vw;
     margin: 3.125rem auto 4.6875rem; /* 50px auto 75px */
   }
   #about-me {
     width: auto;
-    padding: 0.9375rem 5rem 0.625rem 1.5625rem; /* 15px 80px 10px 25px */
+    padding: 0.9375rem 4.6875rem 0.625rem 1.5625rem; /* 15px 75px 10px 25px */
   }
   #short-bio {
     font-size: 1rem; /* 16px */
