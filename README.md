@@ -1,6 +1,6 @@
 ### Hey, my name's Jake.
 
-I'm a multimedia artist exploring ways to integrate code into my creative process.
+I'm an artist and developer currently exploring ways to integrate coding in my multimedia work.
 
 A few of my *favorite* things:
   <p>
