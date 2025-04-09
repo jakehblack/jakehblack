@@ -1,12 +1,12 @@
 ### Hey, my name's Jake.
 
-I'm a multimedia artist exploring ways to integrate code into my creative process.
+I'm an artist & developer currently exploring ways to integrate coding into my multimedia work.
 
 A few of my *favorite* things:
-  <p>
-    &nbsp ☕ &nbsp drinking good coffee<br>
-    &nbsp 🍝 &nbsp cooking delicious meals<br>
-    &nbsp 📺 &nbsp making experimental art<br>
-  </p>
+<p>
+  &nbsp :tv: &nbsp making experimental art<br>
+  &nbsp :spaghetti: &nbsp cooking delicious meals<br>
+  &nbsp :coffee: &nbsp drinking good coffee<br>
+</p>
 
 [my resume](https://jakehblack.net)
