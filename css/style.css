@@ -2,27 +2,25 @@
 body {
   position: relative; /* Ensures pseudo-element is positioned relative to body */
   margin: 0;
-  overflow-x: hidden;
   font-family: "DM Mono", sans-serif;
   font-size: 1rem; /* 16px */
   font-weight: 400;
   line-height: 1.5;
-  color: rgb(243, 243, 243);
+  color: rgb(247, 247, 247);
   background: radial-gradient(circle, rgba(77,85,97,1) 0%, rgba(12,14,15,1) 100%);
-  /* background: linear-gradient(90deg, rgba(70,78,89,1) 0%, rgba(16,18,20,1) 100%); */
+  overflow-x: hidden;
 }
 body::before {
     content: "";
     position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(images/background-pattern.png);
+    background-image: url(../images/background-pattern_vertical.png);
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    filter: drop-shadow(0.5px 0.5px 1px rgba(5, 5, 5, 0.75));
+    filter: drop-shadow(0.0313rem 0.0313rem 0.0156rem rgba(10, 10, 10, 0.75)); /* 0.5px 0.5px 0.25px */
+    overflow-x: hidden;
     z-index: -1;
 }
 #site-header {
@@ -31,26 +29,27 @@ body::before {
   display: grid;
   place-items: center;
   background: linear-gradient(180deg, rgba(8,9,10,1.0), rgba(20,23,26,0.9));
-  box-shadow: rgba(5,5,5,0.8) 0 0.3125rem 0.3125rem; /* 0 5px 5px */
+  box-shadow: rgba(5,5,5,0.6) 0 0.3125rem 0.3125rem; /* 0 5px 5px */
 }
 #my-name {
   letter-spacing: 0.0625em; /* 1px */
   text-decoration: underline;
   text-underline-offset: 0.2813rem; /* 4.5px */
   text-decoration-thickness: 0.1875rem; /* 3px */
-  color: rgb(247, 247, 247);
+  color: rgb(243, 243, 243);
 }
 h1 {
   margin: 0;
   font-style: normal;
 }
 main {
-  width: 75vw;
+  width: 85vw;
   margin: 2.3438rem auto 3.9063rem; /* 37.5px auto 62.5px */
 }
 h2 {
   margin: 0;
   font-weight: normal;
+  color: rgb(243, 243, 243);
 }
 p {
   margin: 0.5rem 0 0.75rem; /* 8px 0 12px */
@@ -63,8 +62,8 @@ p {
   border-radius: 0.3125rem; /* 5px */
   border-color: rgba(77,85,97,0.9);
   padding: 0.625rem 2.5rem 0.625rem 1.25rem; /* 10px 40px 10px 20px */
-  background: linear-gradient(22.5deg, rgba(16,18,20,1.0) 0%, rgba(34,38,43,0.95) 100%);
-  box-shadow: rgba(10,10,10,0.7) 0.3125rem 0.3125rem 0.1563rem; /* 5px 5px 2.5px */
+  background: linear-gradient(22.5deg, rgba(16,18,20,1.0) 0%, rgba(34,38,43,1.0) 100%);
+  box-shadow: rgba(10,10,10,0.6) 0.3125rem 0.3125rem 0.1563rem; /* 5px 5px 2.5px */
   margin-bottom: 0.9375rem; /* 15px */
 }
 #short-bio {
@@ -79,11 +78,12 @@ p {
   border-radius: 0.3125rem; /* 5px */
   border-color: rgba(77,85,97,0.9);
   padding: 0.625rem 0.9375rem 0.625rem 1.25rem; /* 10px 15px 10px 20px */
-  background: linear-gradient(22.5deg, rgba(16,18,20,1.0) 0%, rgba(34,38,43,0.95) 100%);
-  box-shadow: rgba(10,10,10,0.7) 0.3125rem 0.3125rem 0.1563rem; /* 5px 5px 2.5px */
+  background: linear-gradient(22.5deg, rgba(16,18,20,1.0) 0%, rgba(34,38,43,1.0) 100%);
+  box-shadow: rgba(10,10,10,0.6) 0.3125rem 0.3125rem 0.1563rem; /* 5px 5px 2.5px */
   margin-bottom: 0.9375rem; /* 15px */
 }
 #skills {
+  font-size: 0.9375rem; /* 15px */
   line-height: 1.75;
 }
 #work-experience {
@@ -94,8 +94,8 @@ p {
   border-radius: 0.3125rem; /* 5px */
   border-color: rgba(77,85,97,0.9);
   padding: 0.625rem 0.9375rem 0.625rem 1.25rem; /* 10px 15px 10px 20px */
-  background: linear-gradient(22.5deg, rgba(16,18,20,1.0) 0%, rgba(34,38,43,0.95) 100%);
-  box-shadow: rgba(10,10,10,0.7) 0.3125rem 0.3125rem 0.1563rem; /* 5px 5px 2.5px */
+  background: linear-gradient(22.5deg, rgba(16,18,20,1.0) 0%, rgba(34,38,43,1.0) 100%);
+  box-shadow: rgba(10,10,10,0.6) 0.3125rem 0.3125rem 0.1563rem; /* 5px 5px 2.5px */
   margin-bottom: 0.9375rem; /* 15px */
 }
 .company {
@@ -113,8 +113,8 @@ p {
   border-radius: 0.3125rem; /* 5px */
   border-color: rgba(77,85,97,0.9);
   padding: 0.625rem 0.9375rem 0.625rem 1.25rem; /* 10px 15px 10px 20px */
-  background: linear-gradient(22.5deg, rgba(16,18,20,1.0) 0%, rgba(34,38,43,0.95) 100%);
-  box-shadow: rgba(10,10,10,0.7) 0.3125rem 0.3125rem 0.1563rem; /* 5px 5px 2.5px */
+  background: linear-gradient(22.5deg, rgba(16,18,20,1.0) 0%, rgba(34,38,43,1.0) 100%);
+  box-shadow: rgba(10,10,10,0.6) 0.3125rem 0.3125rem 0.1563rem; /* 5px 5px 2.5px */
   margin-bottom: 0.9375rem; /* 15px */
 }
 .degree-school {
@@ -125,7 +125,7 @@ h3 {
   font-weight: normal;
 }
 a {
-  color: #53a6ff;
+  color: rgb(77, 132, 250); /* Bluesky blue */
 }
 #my-links {
   width: fit-content;
@@ -134,9 +134,9 @@ a {
   border-width: 0.0469rem; /* 0.75px */
   border-radius: 0.3125rem; /* 5px */
   border-color: rgba(77,85,97,0.9);
-  padding: 0.625rem 2.5rem 0.625rem 1.25rem; /* 10px 40px 10px 20px */
-  background: linear-gradient(22.5deg, rgba(16,18,20,1.0) 0%, rgba(34,38,43,0.95) 100%);
-  box-shadow: rgba(10,10,10,0.7) 0.3125rem 0.3125rem 0.1563rem; /* 5px 5px 2.5px */
+  padding: 0.625rem 1.875rem 0.625rem 1.25rem; /* 10px 30px 10px 20px */
+  background: linear-gradient(22.5deg, rgba(16,18,20,1.0) 0%, rgba(34,38,43,1.0) 100%);
+  box-shadow: rgba(10,10,10,0.6) 0.3125rem 0.3125rem 0.1563rem; /* 5px 5px 2.5px */
 }
 #listed-links{
   line-height: 1.75;
@@ -158,7 +158,7 @@ a {
   border-radius: 0.4688rem; /* 7.5px */
   padding: 0.625rem 1.25rem; /* 10px 20px */
   font-family: "DM Mono", sans-serif;
-  font-size: 0.875rem; /* 14px */
+  font-size: 0.8125rem; /* 13px */
   text-align: center;
   color: rgb(243, 243, 243);
   display: grid;
@@ -170,12 +170,15 @@ a {
 }
 /* Tablet, laptop & beyond */
 @media screen and (min-width: 48em) { /* 768px */
+  body::before {
+    background-image: url(../images/background-pattern_horizontal.png);
+  }
   main {
     width: 55vw;
     margin: 3.125rem auto 4.6875rem; /* 50px auto 75px */
   }
   #about-me {
-    width: auto;
+    width: fit-content;
     padding: 0.9375rem 3.75rem 0.625rem 1.5625rem; /* 15px 60px 10px 25px */
   }
   #short-bio {
@@ -184,6 +187,9 @@ a {
   #skill-set {
     width: fit-content;
     padding: 0.9375rem 2.5rem 0.625rem 1.5625rem; /* 15px 40px 10px 25px */
+  }
+  #skills {
+    font-size: 1rem; /* 16px */
   }
   #work-experience {
     width: fit-content;
