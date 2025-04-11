@@ -3,7 +3,7 @@ body {
   position: relative; /* Ensures pseudo-element is positioned relative to body */
   margin: 0;
   font-family: "DM Mono", sans-serif;
-  font-size: 1rem; /* 16px */
+  font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
   color: rgb(247, 247, 247);
@@ -19,8 +19,8 @@ body::before {
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    filter: drop-shadow(0.0313rem 0.0313rem 0.0156rem rgba(10, 10, 10, 0.75)); /* 0.5px 0.5px 0.25px */
-    overflow-x: hidden;
+    filter: drop-shadow(0.0313rem 0.0313rem 0.0156rem rgba(10, 10, 10, 0.7)); /* 0.5px 0.5px 0.25px */
+    opacity: 0.6;
     z-index: -1;
 }
 #site-header {
@@ -28,8 +28,8 @@ body::before {
   height: 6.25rem; /* 100px */
   display: grid;
   place-items: center;
-  background: linear-gradient(180deg, rgba(8,9,10,1.0), rgba(20,23,26,0.9));
-  box-shadow: rgba(5,5,5,0.6) 0 0.3125rem 0.3125rem; /* 0 5px 5px */
+  background: linear-gradient(180deg, rgba(8,9,10,1), rgba(20,23,26,0.9));
+  box-shadow: rgba(8,8,8,0.6) 0 0.25rem 0.375rem; /* 0 4px 6px */
 }
 #my-name {
   letter-spacing: 0.0625em; /* 1px */
@@ -63,7 +63,7 @@ p {
   border-color: rgba(77,85,97,0.9);
   padding: 0.625rem 2.5rem 0.625rem 1.25rem; /* 10px 40px 10px 20px */
   background: linear-gradient(22.5deg, rgba(16,18,20,1.0) 0%, rgba(34,38,43,1.0) 100%);
-  box-shadow: rgba(10,10,10,0.6) 0.3125rem 0.3125rem 0.1563rem; /* 5px 5px 2.5px */
+  box-shadow: rgba(10,10,10,0.7) 0.1875rem 0.1875rem 0.1875rem; /* 3px 3px 3px */
   margin-bottom: 0.9375rem; /* 15px */
 }
 #short-bio {
@@ -79,7 +79,7 @@ p {
   border-color: rgba(77,85,97,0.9);
   padding: 0.625rem 0.9375rem 0.625rem 1.25rem; /* 10px 15px 10px 20px */
   background: linear-gradient(22.5deg, rgba(16,18,20,1.0) 0%, rgba(34,38,43,1.0) 100%);
-  box-shadow: rgba(10,10,10,0.6) 0.3125rem 0.3125rem 0.1563rem; /* 5px 5px 2.5px */
+  box-shadow: rgba(10,10,10,0.7) 0.1875rem 0.1875rem 0.1875rem; /* 3px 3px 3px */
   margin-bottom: 0.9375rem; /* 15px */
 }
 #skills {
@@ -95,7 +95,7 @@ p {
   border-color: rgba(77,85,97,0.9);
   padding: 0.625rem 0.9375rem 0.625rem 1.25rem; /* 10px 15px 10px 20px */
   background: linear-gradient(22.5deg, rgba(16,18,20,1.0) 0%, rgba(34,38,43,1.0) 100%);
-  box-shadow: rgba(10,10,10,0.6) 0.3125rem 0.3125rem 0.1563rem; /* 5px 5px 2.5px */
+  box-shadow: rgba(10,10,10,0.7) 0.1875rem 0.1875rem 0.1875rem; /* 3px 3px 3px */
   margin-bottom: 0.9375rem; /* 15px */
 }
 .company {
@@ -114,7 +114,7 @@ p {
   border-color: rgba(77,85,97,0.9);
   padding: 0.625rem 0.9375rem 0.625rem 1.25rem; /* 10px 15px 10px 20px */
   background: linear-gradient(22.5deg, rgba(16,18,20,1.0) 0%, rgba(34,38,43,1.0) 100%);
-  box-shadow: rgba(10,10,10,0.6) 0.3125rem 0.3125rem 0.1563rem; /* 5px 5px 2.5px */
+  box-shadow: rgba(10,10,10,0.7) 0.1875rem 0.1875rem 0.1875rem; /* 3px 3px 3px */
   margin-bottom: 0.9375rem; /* 15px */
 }
 .degree-school {
@@ -125,7 +125,7 @@ h3 {
   font-weight: normal;
 }
 a {
-  color: rgb(77, 132, 250); /* Bluesky blue */
+  color: rgb(76, 131, 252);
 }
 #my-links {
   width: fit-content;
@@ -136,7 +136,7 @@ a {
   border-color: rgba(77,85,97,0.9);
   padding: 0.625rem 1.875rem 0.625rem 1.25rem; /* 10px 30px 10px 20px */
   background: linear-gradient(22.5deg, rgba(16,18,20,1.0) 0%, rgba(34,38,43,1.0) 100%);
-  box-shadow: rgba(10,10,10,0.6) 0.3125rem 0.3125rem 0.1563rem; /* 5px 5px 2.5px */
+  box-shadow: rgba(10,10,10,0.7) 0.1875rem 0.1875rem 0.1875rem; /* 3px 3px 3px */
 }
 #listed-links{
   line-height: 1.75;
@@ -163,10 +163,8 @@ a {
   color: rgb(243, 243, 243);
   display: grid;
   place-items: center;
-  background: rgba(46,51,59,0.8);
-}
-.footer-text button:active {
-  background: rgba(52,58,66,0.9);
+  background: rgba(40,45,51,1);
+  box-shadow: rgba(8,8,8,0.9) -0.25rem 0.25rem 0; /* 4px 4px 0 */
 }
 /* Tablet, laptop & beyond */
 @media screen and (min-width: 48em) { /* 768px */
@@ -182,7 +180,7 @@ a {
     padding: 0.9375rem 3.75rem 0.625rem 1.5625rem; /* 15px 60px 10px 25px */
   }
   #short-bio {
-    font-size: 1rem; /* 16px */
+    font-size: 1rem;
   }
   #skill-set {
     width: fit-content;
