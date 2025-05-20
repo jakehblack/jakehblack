@@ -7,7 +7,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: rgb(247, 247, 247);
-  background: radial-gradient(circle, rgba(77,85,97,1) 0%, rgba(12,14,15,1) 100%);
+  background: radial-gradient(circle, rgba(83,92,105,1.0) 0%, rgba(10,11,13,1.0) 100%);
   overflow-x: hidden;
 }
 body::before {
@@ -19,8 +19,8 @@ body::before {
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    filter: drop-shadow(0.0313rem 0.0313rem 0.0156rem rgba(10, 10, 10, 0.7)); /* 0.5px 0.5px 0.25px */
-    opacity: 0.6;
+    filter: drop-shadow(0.0313rem 0.0313rem 0.0156rem rgba(12,12,12,0.8)); /* 0.5px 0.5px 0.25px */
+    opacity: 0.7;
     z-index: -1;
 }
 #site-header {
@@ -28,7 +28,7 @@ body::before {
   height: 6.25rem; /* 100px */
   display: grid;
   place-items: center;
-  background: linear-gradient(180deg, rgba(8,9,10,1), rgba(20,23,26,0.9));
+  background: linear-gradient(180deg, rgba(10,11,13,0.9), rgba(22,24,28,0.8));
   box-shadow: rgba(8,8,8,0.6) 0 0.25rem 0.375rem; /* 0 4px 6px */
 }
 #my-name {
@@ -146,7 +146,7 @@ a {
   height: 7.8125rem; /* 125px */
   display: grid;
   place-items: center;
-  background: linear-gradient(0deg, rgba(8,9,10,0.9), rgba(20,23,26,0.8));
+  background: linear-gradient(0deg, rgba(10,11,13,0.9), rgba(22,24,28,0.8));
 }
 #site-footer p {
   margin: 0.3125rem; /* 5px */
