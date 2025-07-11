@@ -43,7 +43,7 @@ h1 {
   color: rgb(225,230,235);
 }
 main {
-  width: 50vw;
+  width: 45vw;
   margin: 3.125rem auto 4.6875rem; /* 50px auto 75px */
 }
 h2 {
@@ -174,7 +174,7 @@ a {
     background-image: url(../images/backg-pattern-vert_1296x1842.png);
   }
   main {
-    width: 75vw;
+    width: 85vw;
     margin: 2.3438rem auto 3.9062rem; /* 37.5px auto 62.5px */
   }
   #about-me {
