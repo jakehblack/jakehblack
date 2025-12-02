@@ -1,12 +1,10 @@
-### Hey, my name's Jake!
+### Hey, my name's Jake.
 
-I'm an artist/developer exploring ways to integrate coding into my multimedia work.
+I'm an artist/developer exploring ways to integrate coding into my multimedia work!
 
-A few of my *favorite* things:
-<p>
-  &nbsp :tv: &nbsp making experimental art<br>
-  &nbsp :coffee: &nbsp drinking good coffee<br>
-  &nbsp :spaghetti: &nbsp cooking delicious meals<br>
-</p>
+A few of my *favorite* things include:
+- making experimental art
+- drinking good coffee
+- cooking delicious meals
 
 Here's my [resume](https://jakehblack.net)
