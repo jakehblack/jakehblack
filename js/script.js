@@ -1,7 +1,7 @@
 function copyToClipboard(text) {
     navigator.clipboard.writeText(text)
         .then(() => {
-            const button = document.getElementById('contact-bttn');
+            const button = document.getElementById('contact-bttn')
             button.textContent = 'Email copied :)'
             console.log("Email address copied to clipboard")
        	})
@@ -11,11 +11,10 @@ function copyToClipboard(text) {
        	})
 }
 
-let a = 'jhblack27';
-let b = '@outlook.com';
-let email;
+let a = 'hey'
+let b = '@jakehblack.com'
+let contact = a + b
 
 document.getElementById('contact-bttn').addEventListener('click', () => {
-    email = a + b;
-    copyToClipboard(email)
+    copyToClipboard(contact)
 })
