@@ -121,20 +121,35 @@ h3 {
 
 .job-description {
   font-size: 0.9375rem;
-  margin-left: -10px;
+  /* margin-left: -20px; */
+}
+
+ul {
+  margin-left: -22px;
+}
+
+ul li {
+  padding-left: 6px;
 }
 
 #my-links {
   width: fit-content;
+  margin-bottom: 0;
   line-height: 1.75;
 }
 
-#my-links p {
-  margin: 5px;
+a:link {
+  text-decoration: none;
+  color: rgb(78 127 232);
 }
 
-a {
+a:visited {
+  text-decoration: none;
   color: rgb(78 127 232);
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 #site-footer {
