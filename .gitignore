@@ -1,0 +1,5 @@
+# macOS metadata files
+._*
+
+# macOS system files
+.DS_Store
